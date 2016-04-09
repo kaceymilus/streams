@@ -7,6 +7,9 @@ var Router = {
 
         // Home Page 
         app.get('/', controllers.Home.index);
+        
+        // About Page
+        app.get('/about', controllers.About.index);
 
         // Users
         app.get('/users', controllers.Users.index);
