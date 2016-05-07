@@ -1,15 +1,15 @@
-// Local deps
+// Local dependencies
 var controllers = require('./controllers');
 
 var Router = {
 
     init: function(app) {
 
-        // Home Page 
+        // Home page
         app.get('/', controllers.Home.index);
-        
-        // About Page
-        app.get('/about', controllers.About.index); 
+
+        // About page
+        app.get('/about', controllers.About.index);
 
         // Users
         app.get('/users', controllers.Users.index);
