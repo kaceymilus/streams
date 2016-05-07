@@ -1,5 +1,5 @@
-// Local Deps
-var About = require("./about");
+// Local dependencies
+var About = require('./about');
 var Home = require('./home');
 var Users = require('./users');
 
@@ -7,4 +7,4 @@ module.exports = {
     About: About,
     Home: Home,
     Users: Users
-}
+};

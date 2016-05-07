@@ -1,10 +1,9 @@
-// Home Controller
-
+// Home controller
 var Home = {
-    
-    index: function(req, res){
-        res.render('index', { tittle: 'Express' });
-    }
+
+  index: function(req, res) {
+    res.render('home/index', { title: 'Streams' });
+  }
 
 };
 
